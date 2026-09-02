@@ -58,8 +58,8 @@ a {
   touch-action: none;
   background: var(--paper);
 
-  --base-img: url("/images/base_desktop.png");
-  --reveal-img: url("/images/reveal_desktop.png");
+  --base-img: url("/Portfolio/images/base_desktop.png");
+  --reveal-img: url("/Portfolio/images/reveal_desktop.png");
   --grid-cols: 12;
   --grid-rows: 4;
   --grid-opacity: 1;
@@ -391,8 +391,8 @@ a {
 @media (max-width: 767px) {
   .glass-hero {
     min-height: 42rem;
-    --base-img: url("/images/base_mobile.png");
-    --reveal-img: url("/images/reveal_mobile.png");
+    --base-img: url("/Portfolio/images/base_mobile.png");
+    --reveal-img: url("/Portfolio/images/reveal_mobile.png");
     --grid-cols: 4;
     --grid-rows: 6;
     --grid-opacity: 0.6;
@@ -466,8 +466,8 @@ a {
 /* Landscape on small screens: revert to desktop pair */
 @media (max-width: 767px) and (orientation: landscape) {
   .glass-hero {
-    --base-img: url("/images/base_desktop.png");
-    --reveal-img: url("/images/reveal_desktop.png");
+    --base-img: url("/Portfolio/images/base_desktop.png");
+    --reveal-img: url("/Portfolio/images/reveal_desktop.png");
   }
 }
 
@@ -482,7 +482,7 @@ a {
   padding: clamp(4.5rem, 9vw, 7.5rem) max(5.6vw, 2rem);
 }
 
-.section + .section {
+.section+.section {
   border-top: 1px solid var(--hairline);
 }
 
@@ -519,10 +519,13 @@ a {
 }
 
 @keyframes pulse-ring {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.5;
     transform: scale(1.25);
@@ -899,7 +902,7 @@ a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.project-mini-tag + .project-mini-tag::before {
+.project-mini-tag+.project-mini-tag::before {
   content: "• ";
   margin-right: 0.15rem;
 }
@@ -1264,9 +1267,11 @@ a {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   50% {
     transform: translate(12vw, 15vh) scale(1.2);
   }
+
   100% {
     transform: translate(-6vw, 30vh) scale(0.9);
   }
@@ -1276,9 +1281,11 @@ a {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   50% {
     transform: translate(-14vw, -18vh) scale(1.22);
   }
+
   100% {
     transform: translate(8vw, 20vh) scale(0.92);
   }
@@ -1288,9 +1295,11 @@ a {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   50% {
     transform: translate(16vw, -15vh) scale(1.18);
   }
+
   100% {
     transform: translate(-8vw, -25vh) scale(0.88);
   }
@@ -1300,9 +1309,11 @@ a {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   50% {
     transform: translate(-15vw, 12vh) scale(1.15);
   }
+
   100% {
     transform: translate(10vw, -18vh) scale(0.95);
   }
