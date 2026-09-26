@@ -223,6 +223,69 @@ export default function Home() {
             </div>
           </div>
         </ScrollReveal>
+        <ScrollReveal delay={180}>
+  <div className="internship-showcase-card">
+    <div className="internship-accent-bar" />
+    <div className="internship-content">
+      <div className="internship-top">
+        <div>
+          <span className="internship-badge-glow">
+            <span className="pulse-dot" /> BeeSkilled
+          </span>
+
+          <h3 className="internship-role-title">
+            Machine Learning &amp; AI Intern
+          </h3>
+
+          <p className="internship-meta">
+            BeeSkilled &bull; 6-Week Internship
+          </p>
+        </div>
+      </div>
+
+      <p className="internship-lead">
+        Completed a 6-week internship focused on building foundational
+        knowledge in Machine Learning with Python, exploring core ML concepts,
+        logistic regression, and developing a first machine learning project.
+      </p>
+
+      <div className="internship-grid">
+        <div className="experience-highlight-card">
+          <span className="highlight-index">01</span>
+          <div>
+            <h4>Machine Learning with Python</h4>
+            <p>
+              Built foundational understanding of machine learning concepts
+              and their implementation using Python.
+            </p>
+          </div>
+        </div>
+
+        <div className="experience-highlight-card">
+          <span className="highlight-index">02</span>
+          <div>
+            <h4>Logistic Regression</h4>
+            <p>
+              Explored logistic regression and its application to machine
+              learning classification problems.
+            </p>
+          </div>
+        </div>
+
+        <div className="experience-highlight-card">
+          <span className="highlight-index">03</span>
+          <div>
+            <h4>Machine Learning Project</h4>
+            <p>
+              Applied learned concepts through a beginner-level machine
+              learning project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ScrollReveal>
       </section>
 
       {/* Projects Section */}
