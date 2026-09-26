@@ -76,7 +76,7 @@ const certificationData = [
     issuer: "Issued by Celonis",
     description:
       "Professional credential in process discovery, event log data transformation, throughput analysis, and operational performance optimization.",
-    badge: "Verified Certificate",
+    badge: "View Certificate",
     link: "https://drive.google.com/file/d/13ziZv1FMvq3enhAzsSVbaGSwoh8vAIoV/view?usp=sharing",
   },
   {
@@ -85,7 +85,7 @@ const certificationData = [
     issuer: "Issued by Skill Intern",
     description:
       "Comprehensive certification covering modern frontend engineering, responsive design architectures, and production web deployment.",
-    badge: "Verified Certificate",
+    badge: "View Certificate",
     link: "https://drive.google.com/file/d/1u1mO5H76a0Pejb1Oab5st1wiI7e-koIF/view?usp=sharing",
   },
 ];
@@ -362,9 +362,14 @@ export default function Home() {
             <ScrollReveal key={cert.title} delay={idx * 140 + 80}>
               <div className="cert-card">
                 <div className="cert-header">
-                  <span className="cert-badge">{cert.badge}</span>
-                  <span className="cert-index">{cert.index}</span>
-                </div>
+  <a href={cert.link}
+    target="_blank"
+    rel="noreferrer"
+    className="cert-badge">
+    {cert.badge}
+  </a>
+  <span className="cert-index">{cert.index}</span>
+                  </div>
                 <h3 className="cert-title">{cert.title}</h3>
                 <p className="cert-issuer">{cert.issuer}</p>
                 <p className="cert-desc">{cert.description}</p>
