@@ -223,7 +223,7 @@ export default function Home() {
             </div>
           </div>
         </ScrollReveal>
-        <ScrollReveal delay={180}>
+        <ScrollReveal delay={180}> 
   <div className="internship-showcase-card">
     <div className="internship-accent-bar" />
     <div className="internship-content">
