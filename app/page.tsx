@@ -24,10 +24,10 @@ const projectsData = [
   {
     index: "01",
     title: "Plant Growth Prediction",
-    category: "Machine Learning & Web App",
+    category: "Machine Learning with Python",
     description:
       "An intelligent data-driven application predicting plant growth stages, soil parameters, and crop health metrics using machine learning models.",
-    tags: ["Python", "Machine Learning", "Data Analytics", "Web UI"],
+    tags: ["Python", "Machine Learning"],
     link: "https://github.com/Mohammed-Vaseem-Pasha/Plant-growth-prediction",
   },
   {
@@ -52,22 +52,41 @@ const projectsData = [
 
 const certificationData = [
   {
-    index: "01",
+  index: "01",
+  title: "AWS Cloud Practitioner Essentials",
+  issuer: "Issued by AWS Training & Certification",
+  description:
+    "Completed AWS Cloud Practitioner Essentials training, gaining foundational knowledge of cloud concepts, core AWS services, security, and cloud fundamentals.",
+  badge: "View Certificate",
+  link: "https://drive.google.com/file/d/1U93WFKdbHI5t7W9vod581o4htsBE8vNH/view?usp=sharing",
+},
+
+{
+  index: "02",
+  title: "GenAI Powered Data Analytics Job Simulation",
+  issuer: "Issued by Tata through Forage",
+  description:
+    "Completed a job simulation focused on GenAI-powered data analytics, exploring practical approaches to data-driven problem solving and analytics workflows.",
+  badge: "View Certificate",
+  link: "https://drive.google.com/file/d/1ucLN8jJyHS6YYYzU4jkRvckJgT8-PShS/view?usp=sharing",
+},
+  {
+    index: "03",
     title: "Process Mining Certificate",
     issuer: "Issued by Celonis",
     description:
       "Professional credential in process discovery, event log data transformation, throughput analysis, and operational performance optimization.",
     badge: "Verified Certificate",
-    link: "https://www.celonis.com/",
+    link: "https://drive.google.com/file/d/13ziZv1FMvq3enhAzsSVbaGSwoh8vAIoV/view?usp=sharing",
   },
   {
-    index: "02",
+    index: "04",
     title: "Web Development Certificate",
     issuer: "Issued by Skill Intern",
     description:
       "Comprehensive certification covering modern frontend engineering, responsive design architectures, and production web deployment.",
     badge: "Verified Certificate",
-    link: "https://github.com/Mohammed-Vaseem-Pasha",
+    link: "https://drive.google.com/file/d/1u1mO5H76a0Pejb1Oab5st1wiI7e-koIF/view?usp=sharing",
   },
 ];
 
