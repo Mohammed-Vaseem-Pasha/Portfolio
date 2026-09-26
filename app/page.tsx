@@ -277,8 +277,7 @@ export default function Home() {
           <div>
             <h4>Machine Learning Project</h4>
             <p>
-              Applied learned concepts through a beginner-level machine
-              learning project.
+              Applied learned concepts through a hands-on project, strengthening practical understanding of model development and implementation.
             </p>
           </div>
         </div>
