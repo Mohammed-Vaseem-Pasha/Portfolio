@@ -93,7 +93,7 @@ const certificationData = [
 const educationData = [
   {
     index: "01",
-    degree: "B.Tech — Computer Science & Engineering",
+    degree: "B.Tech — Computer Science & Engineering (AI/ML)",
     year: "3rd Year (Current)",
     institution: "Vaagdevi College of Engineering",
     description:
@@ -144,8 +144,8 @@ export default function Home() {
                   <span className="stat-label">Featured Projects</span>
                 </div>
                 <div className="stat-card">
-                  <span className="stat-number">Celonis</span>
-                  <span className="stat-label">Process Certified</span>
+                  <span className="stat-number">02+</span>
+                  <span className="stat-label">Interships</span>
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@ export default function Home() {
                     <span className="pulse-dot" /> Celonis Execution Management
                   </span>
                   <h3 className="internship-role-title">Process Mining Intern</h3>
-                  <p className="internship-meta">Skill Intern &bull; Process Intelligence Track</p>
+                  <p className="internship-meta">Celonis &bull; Process Intelligence Track</p>
                 </div>
               </div>
 
