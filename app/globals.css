@@ -698,7 +698,9 @@ a {
 /* ---------------------------------------------------------------- */
 /* 03. INTERNSHIP SHOWCASE                                          */
 /* ---------------------------------------------------------------- */
-
+.intership-showcase-card + .internship-showcase-card{
+  margin-top:24px;
+}
 .internship-showcase-card {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.12);
